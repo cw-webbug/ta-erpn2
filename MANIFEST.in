@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tandemarbor *.css
+recursive-include tandemarbor *.csv
+recursive-include tandemarbor *.html
+recursive-include tandemarbor *.ico
+recursive-include tandemarbor *.js
+recursive-include tandemarbor *.json
+recursive-include tandemarbor *.md
+recursive-include tandemarbor *.png
+recursive-include tandemarbor *.py
+recursive-include tandemarbor *.svg
+recursive-include tandemarbor *.txt
+recursive-exclude tandemarbor *.pyc
